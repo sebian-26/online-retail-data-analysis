@@ -1,0 +1,26 @@
+# Exported CSV files from SQL (large, not versioned)
+data/*
+!data/.gitkeep
+
+# Working copy of the notebook as a script (not versioned)
+python/online_retail_notebook.py
+
+# Source of the report PDF (not versioned)
+report/REPORT.md
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Power BI temporary and backup files
+*.pbix.bak
+~$*
