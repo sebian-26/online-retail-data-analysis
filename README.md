@@ -104,9 +104,9 @@ END WHILE;
 - **SQL**: one logged, re-runnable step per cleaning rule, with CTEs and
   window functions.
 - **Python**: two gaussians fitted to weekly revenue; segments from my own
-  k-medoids (ported from C); an overdue rule and a BG/NBD model, backtested
-  at three past dates; products split into bands and their growth split
-  into buyers, lines, units and price.
+  k-medoids (ported from [C](https://github.com/sebian-26/C89_PROJECT_GENOMIC_SEQUENCES/blob/main/src/cluster.c));
+  an overdue rule and a BG/NBD model, backtested at three past dates; 
+  products split into bands and their growth split into buyers, lines, units and price.
 - **Limits**: two seasons only, so no forecast, and the October wave rests
   on few weeks; not all rules were backtested; Upgrade and Retain hinge on
   one threshold (40–233 and 28–167 customers); revenue is not profit (no

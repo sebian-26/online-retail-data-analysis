@@ -1,6 +1,10 @@
 """
 k-medoids clustering - Python port of the clustering phase of my C project
-"Cromosomi" (cluster.c), simplified to what this analysis needs.
+"Cromosomi" (src/cluster.c in
+https://github.com/sebian-26/C89_PROJECT_GENOMIC_SEQUENCES), simplified to
+what this analysis needs. Steps 2-4 follow the C code; the random seeding
+(step 1) and the n_init restarts were added here, since the C code starts
+from fixed representatives.
 
 Algorithm (alternating / Voronoi iteration):
   1. Initial representatives chosen with k-means++ style seeding: each new
